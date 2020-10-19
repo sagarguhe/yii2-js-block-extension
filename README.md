@@ -28,4 +28,11 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \tinkers\widgets\AutoloadExample::widget(); ?>```
+<?php \tinkers\widgets\JsBlock::begin() ?>
+<script>
+    $(function(){
+        jQuery(".company_introduce").slide({mainCell:".bd ul",effect:"left",autoPlay:true,mouseOverStop:true});
+    });
+</script>
+<?php \tinkers\widgets\JsBlock::end()?>
+```
