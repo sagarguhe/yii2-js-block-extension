@@ -1,0 +1,21 @@
+{
+    "name": "tinkers/yii2-js-block",
+    "description": "A simple Js Block extension",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tinkers.io",
+            "email": "info@tinkers.io"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "tinkers\\widgets\\": ""
+        }
+    }
+}
